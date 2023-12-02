@@ -30,8 +30,8 @@
   --imgbg: url(assets/backgroundL.png); /* Image URL */
   --imgbgDark: url(assets/backgroundD.png); /* Image URL */
   --imgcol: linear-gradient(
-    rgba(255, 255, 255, 0.205),
-    rgba(255, 255, 255, 0.548)
+    rgba(255, 255, 255, 0.200),
+    rgba(255, 255, 255, 0.550)
   ); /* Filter color */
 }
 
@@ -47,8 +47,8 @@
 
   /* Image background  */
   --imgcol: linear-gradient(
-    rgba(0, 0, 0, 0.205),
-    rgba(0, 0, 0, 0.548)
+    rgba(0, 0, 0, 0.200),
+    rgba(0, 0, 0, 0.550)
   ); /* Filter color */
 }
 
