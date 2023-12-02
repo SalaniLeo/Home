@@ -4,12 +4,12 @@ Bento, but with a bit of customization :D
 
 <details>
   <summary>Light</summary>
-  <img source="assets/img/light.png">
+  <img src="assets/img/light.png">
 </details>
 
 <details>
   <summary>Dark</summary>
-  <img source="assets/img/dark.png">
+  <img src="assets/img/dark.png">
 </details>
 
 ## Changes
