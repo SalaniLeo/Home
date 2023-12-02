@@ -135,20 +135,20 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'sun',
+			icon: 'home',
 			id: '1',
 			links: [
 				{
-					name: 'OpenWatherMap',
-					link: 'https://openweathermap.org/',
+					name: 'Home Assistant',
+					link: '192.168.50.5:8123',
 				},
 				{
-					name: 'Persiceto Meteo',
-					link: 'https://persicetometeo.com/',
+					name: 'Immich',
+					link: 'salanileohome.ddns.net:30041',
 				},
 				{
-					name: 'Temperature',
-					link: 'https://www.emiliaromagnameteo.com/temperatura-attuale.php',
+					name: 'TrueNAS',
+					link: '192.168.50.155',
 				},
 				{
 					name: '',
@@ -171,54 +171,6 @@ const CONFIG = {
 				{
 					name: 'SalaniLeo',
 					link: 'https://www.salanileo.dev',
-				},
-			],
-		},
-	],
-
-	// Second Links Container
-	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
-			],
-		},
-		{
-			icon: 'github',
-			id: '2',
-			links: [
-				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
-				},
-				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
-				},
-				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
-				},
-				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
 				},
 			],
 		},
