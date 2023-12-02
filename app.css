@@ -27,10 +27,11 @@
   --cards: #e4e6e6; /* Cards color */
 
   /* Image background  */
-  --imgbg: url(assets/background.jpg); /* Image URL */
+  --imgbg: url(assets/backgroundL.png); /* Image URL */
+  --imgbgDark: url(assets/backgroundD.png); /* Image URL */
   --imgcol: linear-gradient(
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.7)
+    rgba(255, 255, 255, 0.205),
+    rgba(255, 255, 255, 0.548)
   ); /* Filter color */
 }
 
@@ -38,7 +39,7 @@
   /* Dark Colors  */
   --accent: #d8dee9; /* Hover color */
   --background: #262626; /* Background color */
-  --cards: #333333; /* Cards color */
+  --cards: #4b4b4b50; /* Cards color */
 
   /* Fonts Color */
   --fg: #d8dee9; /* Foreground color */
@@ -46,8 +47,8 @@
 
   /* Image background  */
   --imgcol: linear-gradient(
-    rgba(0, 0, 0, 0.85),
-    rgba(0, 0, 0, 0.85)
+    rgba(0, 0, 0, 0.205),
+    rgba(0, 0, 0, 0.548)
   ); /* Filter color */
 }
 
@@ -77,8 +78,13 @@ body {
   transition: none;
 }
 
-.withImageBackground {
+.withImageBackgroundLight {
   background-image: var(--imgcol), var(--imgbg);
+  background-size: cover;
+}
+
+.withImageBackgroundDark {
+  background-image: var(--imgcol), var(--imgbgDark);
   background-size: cover;
 }
 
@@ -123,6 +129,7 @@ body {
 .card {
   /* margin-top: 2px; */
   background-color: var(--cards);
+  backdrop-filter: blur(10px);
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
 }

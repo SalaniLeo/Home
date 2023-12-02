@@ -12,6 +12,8 @@ const enableDark = () => {
 	localStorage.setItem('darkTheme', 'enabled');
 	themeToggle.innerHTML = `<i id="themeButton__icon" icon-name="sun"></i>`;
 	lucide.createIcons();
+	document.body.classList.add('withImageBackgroundDark');
+	document.body.classList.remove('withImageBackgroundLight');
 };
 
 const disableDark = () => {
@@ -19,6 +21,8 @@ const disableDark = () => {
 	localStorage.setItem('darkTheme', null);
 	themeToggle.innerHTML = `<i id="themeButton__icon" icon-name="moon"></i>`;
 	lucide.createIcons();
+	document.body.classList.add('withImageBackgroundLight');
+	document.body.classList.remove('withImageBackgroundDark');
 };
 
 if (darkTheme === 'enabled') {
@@ -36,11 +40,11 @@ themeToggle.addEventListener('click', () => {
 	} else {
 		disableDark();
 	}
+	if (document.body.classList.contains('withImageBackground'))
+		console.log("light")
+	if (document.body.classList.contains('withImageBackgroundDark'))
+		console.log("dark")
 });
-
-if (CONFIG.imageBackground) {
-	document.body.classList.add('withImageBackground');
-}
 
 if (CONFIG.changeThemeByOS && CONFIG.autoChangeTheme) {
 	if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
