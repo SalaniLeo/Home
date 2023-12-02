@@ -40,10 +40,6 @@ themeToggle.addEventListener('click', () => {
 	} else {
 		disableDark();
 	}
-	if (document.body.classList.contains('withImageBackground'))
-		console.log("light")
-	if (document.body.classList.contains('withImageBackgroundDark'))
-		console.log("dark")
 });
 
 if (CONFIG.changeThemeByOS && CONFIG.autoChangeTheme) {

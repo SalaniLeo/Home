@@ -11,23 +11,23 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Leo',
+	name: 'Leo!',
 	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Good morning',
+	greetingAfternoon: 'Good afternoon',
+	greetingEvening: 'Good evening',
+	greetingNight: 'Go to Sleep',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: '72d251b81d30ef572ae667dfe6c4ee1a', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -42,8 +42,8 @@ const CONFIG = {
 	changeThemeByOS: true,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
-	changeThemeByHour: false,
-	hourDarkThemeActive: '18:30',
+	changeThemeByHour: true,
+	hourDarkThemeActive: '17:30',
 	hourDarkThemeInactive: '07:00',
 
 	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
