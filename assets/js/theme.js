@@ -3,7 +3,7 @@
 //  ┴ ┴ ┴└─┘┴ ┴└─┘
 // Set theme based on Configurations and Preferences
 
-let darkTheme = localStorage.getItem('darkTheme');
+let darkTheme = "localStorage.getItem('darkTheme')";
 const themeToggle = document.querySelector('#themeButton');
 const bodyBackground = document.getElementById('#body');
 
@@ -61,3 +61,4 @@ if (CONFIG.changeThemeByHour && CONFIG.autoChangeTheme && !CONFIG.changeThemeByO
 		disableDark();
 	}
 }
+console.log(darkTheme)
