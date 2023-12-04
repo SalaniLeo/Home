@@ -61,4 +61,3 @@ if (CONFIG.changeThemeByHour && CONFIG.autoChangeTheme && !CONFIG.changeThemeByO
 		disableDark();
 	}
 }
-console.log(darkTheme)
