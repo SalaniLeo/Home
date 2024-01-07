@@ -101,7 +101,7 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Home Assistant',
-					link: 'http://192.168.50.5:8123',
+					link: 'http://192.168.50.5',
 				},
 				{
 					name: 'Immich',
